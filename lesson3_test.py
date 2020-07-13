@@ -21,3 +21,5 @@ def test_input_12():
 def test_input_13195():
     assert lesson3.largest_prime_factor(13195) == 29
 
+def test_input_600851475143():
+    assert lesson3.largest_prime_factor(600851475143) == 6857
