@@ -69,4 +69,4 @@ def is_prime(number):
 
     return True
 
-print(f"Largest Prime {largest_prime_factor(600851475143)}")
+# print(f"Largest Prime {largest_prime_factor(600851475143)}")

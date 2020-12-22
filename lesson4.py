@@ -61,4 +61,3 @@ def is_palindrome(number):
     return True
 
 print(larget_palindrome_product(4))
-
