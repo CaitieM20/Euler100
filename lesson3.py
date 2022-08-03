@@ -6,7 +6,6 @@ import math
 
 def largest_prime_factor(number_to_factor):
     prime_factors = compute_prime_factors(number_to_factor, number_to_factor, [1])
-    print(prime_factors)
     return prime_factors[len(prime_factors)-1]
 
 def compute_prime_factors(number_to_factor, current_factor, prime_factors):
@@ -62,7 +61,7 @@ def is_prime(number):
     # one will be encountered before the square root of that number
     # so we can shrink the divisor search space by taking the square
     # root of the number.  
-    while current_divisor < math.sqrt(number):
+    while current_divisor <= math.sqrt(number):
         if number % current_divisor == 0:
             return False
         current_divisor = current_divisor + 1
