@@ -2,7 +2,7 @@ import lesson4
 
 def test_input_2():
     result = lesson4.larget_palindrome_product(2)
-    assert result is int
+    assert type(result) == int
     assert result == 9009
 
 def test_input_3():
